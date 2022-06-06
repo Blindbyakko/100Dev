@@ -1,9 +1,55 @@
-.mainstories img {
-    width: 200px;
-    height: 200px;
+nav{
+    background-color:  black;
+    color: white;
+    height: 60px;
     
 }
-.mainstory{
-    width: 400px;
-    height: 400px;
+
+.day-of-the-week{
+
+    text-align: right;
+    color: red;
 }
+.day-of-the-week:first-child{
+    
+    text-align: left;
+    color: yellow;
+}
+.day-of-the-week:last-child{
+    
+    text-align: right;
+    color: red;
+}
+section{
+    justify-content: center;
+}
+
+.LeadingStories{
+    margin-left: 10%;
+    margin-right: 10%;
+    display: grid;
+    grid-template-columns:   300px 300px 300px 300px;
+    grid-template-rows: 170px 170px
+}
+
+.main{
+    margin: 0;
+    height: 332px;
+    width: 591px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.sideStory1, .sideStory2,.sideStory3, .sideStory4{
+    height: 157px;
+    width: 280px;
+    align-self: center;
+}
+
+.sideStory1{
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
