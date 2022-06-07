@@ -85,22 +85,62 @@ section{
 }
 
 .main-story-text{
+    
     display: grid;
     grid-template-columns:   300px 300px 300px 300px;
     grid-template-rows: 170px 170px;
-    font-size: 28px;
-    position: absolute;
-    top: 125px;
-    left: 215px;
+    font-size: 32px;
+   position: absolute;
+    top: 127px;
+    left: 180px;
     color: white;
 }
 
+.main-story-text a{
+    color: white;
+    font-size: 12px;
+}
+
 .main-story-text p{
-    margin-left: 5px;
+    margin: 0px;
+}
+
+
+
+.main-story-text p:nth-child(1){
+    color: blue;
     grid-column-start: 1;
     grid-column-end: 3;
-    grid-row-start: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    align-self: end;
+    
 }
+
+.main-story-text p:nth-child(2){
+    color: red;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.main-story-text p:nth-child(3){
+    color: green;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.main-story-text p:nth-child(5){
+    color: pink;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
 
 .main-story-text span{
     font-size: 16px;
