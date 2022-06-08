@@ -91,8 +91,9 @@ section{
     grid-template-rows: 170px 170px;
     font-size: 32px;
    position: absolute;
-    top: 127px;
-    left: 180px;
+    top: 32%;
+    left: 50.3%;
+    transform: translate(-50%, -50%);
     color: white;
 }
 
@@ -108,7 +109,8 @@ section{
 
 
 .main-story-text p:nth-child(1){
-    color: blue;
+    color: white;
+    align-self: end;
     grid-column-start: 1;
     grid-column-end: 3;
     grid-row-start: 1;
@@ -118,7 +120,9 @@ section{
 }
 
 .main-story-text p:nth-child(2){
-    color: red;
+    color: white;
+    align-self: end;
+    font-size: 20px;
     grid-column-start: 3;
     grid-column-end: 4;
     grid-row-start: 1;
@@ -126,15 +130,29 @@ section{
 }
 
 .main-story-text p:nth-child(3){
-    color: green;
+    color: white;
+    align-self: end;
+    font-size: 20px;
     grid-column-start: 4;
     grid-column-end: 5;
     grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.main-story-text p:nth-child(4){
+    color: white;
+    font-size: 20px;
+    align-self: end;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
     grid-row-end: 3;
 }
 
 .main-story-text p:nth-child(5){
-    color: pink;
+    color: white;
+    align-self: end;
+    font-size: 20px;
     grid-column-start: 4;
     grid-column-end: 5;
     grid-row-start: 2;
