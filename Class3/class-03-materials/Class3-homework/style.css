@@ -7,25 +7,37 @@ nav {
 nav ul{
     display: flex;
     justify-content:center;
-    list-style-type:none
+    list-style-type:none;
+    vertical-align: baseline;
+    height: 50px;
 }
 
 nav li:nth-child(1),  nav li:nth-child(2){
     padding-left: 50px;
     padding-right: 50px;
-    color: blue;
+    color: #1865f2;
     font-weight: bold;
+    vertical-align: baseline;
 }
 
 #course {
-    color: blue;
+    color: #1865f2;
     border: 0px;
     width: 20px;
     
 }
 
+
+.title {
+    background-size: 100% 100%;
+    height: 28px;
+    width: 175px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(/Class3/class-03-materials/Class3-homework/img/Logo.svg);
+}
 #search{
-    color: blue;
+    color: #1865f2;
     background-color: rgb(227,229,230);
     border: 1px;
     height: 40px;
