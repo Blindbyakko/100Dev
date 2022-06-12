@@ -13,8 +13,33 @@ nav ul{
 nav li:nth-child(1),  nav li:nth-child(2){
     padding-left: 50px;
     padding-right: 50px;
-    color: red;
+    color: blue;
+    font-weight: bold;
 }
+
+#course {
+    color: blue;
+    border: 0px;
+    width: 20px;
+    
+}
+
+#search{
+    color: blue;
+    background-color: rgb(227,229,230);
+    border: 1px;
+    height: 40px;
+    width: 200px;
+    border-radius: 4%;
+    
+}
+
+#search-glass{
+    color: rgb(180,182,200);
+    margin: -20px;
+    font-size: 22px;
+}
+
 
 nav li:nth-child(3){
     padding-left: 150px;
@@ -28,3 +53,4 @@ nav li:nth-child(4),  nav li:nth-child(5), nav li:nth-child(6){
     justify-content:right;
     color: green;
 }
+
