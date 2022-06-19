@@ -1,0 +1,55 @@
+* {
+    margin: 0px;
+}
+
+body{
+    background-color: lightgray;
+}
+
+header{
+    border: 1px solid black;
+    height: 100px;
+}
+
+/* section{
+    float: right;
+} */
+
+
+.one{
+    float: right;
+    width: 33%;
+    height: 250px;
+    border: 1px solid black;
+}
+.two{
+    float: right;
+    width: 33%;
+    height: 250px;
+    border: 1px solid black;
+}
+.three{
+    float: right;
+    width: 33%;
+    height: 250px;
+    border: 1px solid black;
+}
+
+.four{
+    float: left;
+    width: 49.7%;
+    height: 400px;
+    border: 1px solid black;
+}
+.five{
+    float: right;
+    width: 49.9%;
+    height: 400px;
+    border: 1px solid black;
+}
+
+footer {
+    clear: both;
+    border: 1px solid black;
+    height: 100px;
+}
