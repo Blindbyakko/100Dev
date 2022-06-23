@@ -29,13 +29,24 @@ body {
 /******************************************
 /* LAYOUT
 /*******************************************/
-header {
-
+header, footer{
+     height: 100px;
+     border: 2px solid black;
+     clear:both;
 }
 
-footer {
-
+section{
+     height: 300px;
+     width: 33.333%;
+     border: 2px solid black;
+     float:left;
 }
+
+.bigBottom{
+     width: 50%;
+}
+
+
 
 /******************************************
 /* ADDITIONAL STYLES

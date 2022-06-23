@@ -5,7 +5,7 @@
 }
 
 /* Please make "I like turtles." red */
-section#chunkyMilk h2{
+#chunkyMilk h2{
     color: red;
 }
 

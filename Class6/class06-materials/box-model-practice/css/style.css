@@ -2,17 +2,17 @@
 
 h1 {
     font: 30px;
-    padding-left: 5px;
-    border: 1px solid red;
+    padding-left: 30px;
+    border: 3px solid red;
 }
 
 /* Please make the h2 25px, with padding on top/bottom, a thick gold border, and margin on the top/bottom */
 
 h2{
     font-size: 25px;
-    padding: 5px 0px 5px 0px;
+    padding: 50px 0px 50px 0px;
     border: 10px solid gold;
-    margin: 5px 0px 5px 0px;
+    margin: 20px 0px 20px 0px;
 
 }
 
@@ -21,7 +21,14 @@ h2{
 span {
     border: 1px solid black;
     padding: 5px;
-    background: blue;
+    color: blue;
 }
 
 /* Please make the section 25% width, 200px tall, centered, and with a thin purple border */
+
+section {
+    width: 25%;
+    height: 200px;
+    border: 3px solid purple;
+    margin: 0 auto;
+}
