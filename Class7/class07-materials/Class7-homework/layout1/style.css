@@ -1,0 +1,43 @@
+* {
+    margin: 0px;
+}
+
+body{
+    background-color: lightgray;
+}
+
+header, footer{
+    border: 1px solid black;
+    height: 150px;
+    clear: both;
+}
+
+
+.one , .two,  .three{
+    width: 33.33%;
+    float: right;
+    box-sizing: border-box;
+    height: 225px;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+@media (min-width:43.33%){
+    .one , .two,  .three{
+        width: 11.11%;
+        float: right;
+        box-sizing: border-box;
+        height: 225px;
+        border: 1px solid black;
+        box-sizing: border-box;
+        background: red;
+    }
+}
+
+
+.four, .five{
+    float: left;
+    width: 50%;
+    height: 322px;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
