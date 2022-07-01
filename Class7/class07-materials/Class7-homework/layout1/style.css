@@ -21,7 +21,7 @@ header, footer{
     border: 1px solid black;
     box-sizing: border-box;
 }
-@media (min-width:43.33%){
+@media (min-width:33.33%){
     .one , .two,  .three{
         width: 11.11%;
         float: right;
