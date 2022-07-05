@@ -1,3 +1,11 @@
+/*
+    README: Media Queries for layout 1. As the screen gets smaller from it's max width, the sections will start to stack.
+    I've colored the stacks to showcase how the stacking occurs with section 1,2 and 3 as red, section 3 as blue when it takes up it's own row, and section 4-5 as green.
+
+
+*/
+
+
 * {
     margin: 0px;
 }
@@ -21,9 +29,18 @@ header, footer{
     border: 1px solid black;
     box-sizing: border-box;
 }
-@media (max-width: 600px){
+
+.four, .five{
+    float: left;
+    width: 50%;
+    height: 322px;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+@media (max-width: 800px) and (min-width: 0px){
     .one , .two,  .three{
-        width: 600px;
+        width: 800px;
         float: none;
         box-sizing: border-box;
         height: 225px;
@@ -33,11 +50,50 @@ header, footer{
     }
 }
 
+@media (max-width: 1600px) and (min-width: 801px){
+    .one , .two{
+        width: 50%;
+        float: left;
+        box-sizing: border-box;
+        height: 225px;
+        border: 1px solid black;
+        box-sizing: border-box;
+        background: red;
+    }
+    .three{
+        clear: both;
+        width: 100%;
+        float: none;
+        box-sizing: border-box;
+        height: 225px;
+        border: 1px solid black;
+        box-sizing: border-box;
+        background: blue;
 
-.four, .five{
-    float: left;
-    width: 50%;
-    height: 322px;
-    border: 1px solid black;
-    box-sizing: border-box;
+    }
+    .four, .five{
+        width: 50%;
+        float: left;
+        box-sizing: border-box;
+        height: 225px;
+        border: 1px solid black;
+        box-sizing: border-box;
+        background: green;
+
+    }
 }
+
+
+
+@media (max-width: 800px){
+    .four, .five{
+        float: none;
+        width: 800px;
+        height: 322px;
+        border: 1px solid black;
+        box-sizing: border-box;
+        background: green;
+    }
+}
+
+

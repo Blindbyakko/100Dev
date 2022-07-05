@@ -1,3 +1,9 @@
+/*
+    README: Media Queries for layout 3. Looked up common media queries for small, medium and average devices and applied appropriate changes. All changes are indicated with a orange color change.For small, all sections will stack on each other, for medium, section 3-4 will drop down create a 2x2 grid look, and 3rd form will result in the default look.
+
+
+*/
+
 * {
     margin: 0px;
 }
@@ -11,6 +17,7 @@ header, footer{
     height: 150px;
     clear: both;
 }
+
 .one, .two, .three, .four{
     height: 548px;
     border: 1px solid black;
@@ -26,6 +33,44 @@ header, footer{
 .two {
     width: 43%;
     box-sizing: border-box;
+}
+
+@media (max-width: 768px) and (min-width: 0px){
+    .one,.two, .three, .four{
+        width: 100%;
+        float: none;
+        background: orange;
+        height: 20em;
+    }
+}
+
+@media (max-width: 992px) and (min-width: 768px){
+    .one,.two{
+        width: 50%;
+        float: left;
+        background: yellow;
+        height: 300px;
+    }
+    .three, .four{
+        width: 50%;
+        float: left;
+        background: orange;
+        height: 300px;
+    }
+}
+
+
+
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+    .one, .two, .three, .four{
+        height: 548px;
+        border: 1px solid black;
+        box-sizing: border-box;
+        float: left;
+        
+    }
 }
 
 
