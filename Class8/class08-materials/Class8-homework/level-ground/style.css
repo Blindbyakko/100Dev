@@ -53,7 +53,7 @@ nav > img{
 
 section{
     background: rgb(102, 118, 138);
-    height: 750px;
+    height: 650px;
     text-align: center;
     color: rgb(241, 236, 236);
 }
@@ -69,17 +69,37 @@ section > p{
     padding-bottom: 40px;
 }
 
-/* section > img{
-    display:inline-block;
-    height: 60px;
-    margin-top: 10px;
-    
-} */
+section > span{
+    color: rgb(235, 233, 233);
+    vertical-align: 20px;
+    font-size: 24px;
+}
 
-body > section > span{
-    font-size: 28px;
-    height: 160px;
-    background: red;
+section > h6{
+    font-size: 18px;
+    color: rgb(40, 61, 87);
+    font-family: 600;
+    margin-top: 100px;
+}
+
+section + section{
+    background: white;
+    color: black;
+    height: 440px;
+}
+
+h2{
+    margin-top: 175px;
+    font-size: 42px;
+}
+section > h2 + p{
+    text-align: center;
+    margin-top: 30px;
+    padding: 0px 25%;
+}
+
+section + section + section{
+    background: rgb(102, 118, 138);
 }
 
 
