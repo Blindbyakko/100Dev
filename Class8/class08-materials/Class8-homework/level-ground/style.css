@@ -102,6 +102,20 @@ section + section + section{
     background: rgb(102, 118, 138);
 }
 
+.third > section > div{
+    background: yellow;
+    height: 275px;
+    width: 500px;
+    margin: 15% 30%;
+}
+
+.third > section{
+    /* background: #DBDFE2; */
+    background: gray;
+    width: 50%;
+    float: left;
+    height: 840px;
+}
 
 
 
