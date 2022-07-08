@@ -98,23 +98,79 @@ section > h2 + p{
     padding: 0px 25%;
 }
 
-section + section + section{
-    background: rgb(102, 118, 138);
+/* 3rd Section - Current working */
+
+
+.third{
+    background: rgb(235, 233, 233);
 }
 
 .third > section > div{
-    background: yellow;
+    background: rgb(102, 118, 138);;
     height: 275px;
     width: 500px;
-    margin: 15% 30%;
+    margin: 15% 0% 5% 33%;
+}
+
+.third > section  + section > div{
+    background: rgb(102, 118, 138);;
+    height: 275px;
+    width: 500px;
+    margin: 15% 0% 5% 15%;
+}
+
+.third > section > h2{
+    
+    color: black;
+    margin: 7% 0% 5% 17%;
+    text-align: center;
+    font-size: 32px;
+}
+
+.third > section + section > h2{
+    margin: 7% 20% 5% 0%;
+    text-align: center;
+    font-size: 32px;
 }
 
 .third > section{
     /* background: #DBDFE2; */
-    background: gray;
+    background: rgb(201, 197, 197);
     width: 50%;
     float: left;
-    height: 840px;
+    height: 1200px;
+}
+
+.third > section > h2 + p{
+    
+    color: black;
+    font-size: 24px;
+    padding: 0 5% 5% 24%;
+}
+
+
+.third > section  + section > h2 + p{
+    font-size: 24px;
+    padding: 0 24% 5% 4%;
+}
+
+.third > section > h2 + p + p{
+    
+    color: black;
+    font-size: 18px;
+    padding: 3% 5% 3% 5%;
+    border: 2px solid black;
+    width: 150px;
+    margin-left: 44%;
+}
+
+.third > section  + section > h2 + p + p{
+    font-size: 18px;
+    padding: 3% 5% 3% 5%;
+    border: 2px solid black;
+    width: 150px;
+    margin-left: 27%;
+    margin-top: 3%;
 }
 
 
