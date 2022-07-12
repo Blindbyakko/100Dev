@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    list-style-type: none;
+  }
+
+nav *{
+    float: left;
+    display: block;
+    width:60%;
+    background: rgb(196, 240, 255);
+    height: 50px;
+    
+}
+
+nav a{
+    width: 20%;
+    padding-left: 2%;
+    font-size: 24px;
+    font-weight: bold;
+    padding-top: .5%;
+    
+}
+nav > ul > li *{
+    width: 70%;
+    float: left;
+
+}
+
+nav > ul > li {
+    width: 20%;
+    padding-top: 2%;
+}
+
+nav button{
+    width: 75px;
+    height: 30px;
+    margin-left: 5%;
+    margin-top: 1.25%;
+}
