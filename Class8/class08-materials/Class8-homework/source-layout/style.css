@@ -6,11 +6,12 @@
     margin: 0px;
     list-style-type: none;
     font-family: 'Roboto', sans-serif;
+    background: #E6E9ED;
   }
 
 .main-page-container{
     height: 1000px;
-    background: #E1E9F0;
+    background: #F5F9FC;
     width:70%;
     margin-left: 400px;
     margin-top: 75px;
@@ -20,7 +21,7 @@ nav *{
     float: left;
     display: block;
     width:80%;
-    background: #E1E9F0;
+    background: #F5F9FC;
     height: 50px;
     font-weight: bold;
     color: #2F4558;
@@ -74,12 +75,14 @@ main section{
 main > section{
     width: 50%;
     float: left;
+    background: #F5F9FC;
 }
 
 section h4{
     font-size: 12px;
     margin-left: 100px;
     padding-bottom: 10px;
+    background: #F5F9FC;
 }
 section h1{
     font-size: 32px;
@@ -88,15 +91,18 @@ section h1{
     margin-left: 100px;
     padding-bottom: 20px;
     letter-spacing: 3px;
+    background: #F5F9FC;
+    
 }
 
 section form{
     margin-left: 100px;
-    display:flex;   
+    display:flex;  
+    background: #F5F9FC; 
 }
 
 section form input{
-    background: lightsteelblue;
+    background: #F5F9FC;
     height: 30px;
     width:250px;
     border: transparent;
@@ -119,9 +125,20 @@ section p{
     margin-left: 100px;
     width: 300px;
     font-size: 14px;
+    background: #F5F9FC;
 }
 
 main img{
     height: 400px;
     width: 100%;
+    scale: 1em;
+    /* margin-left: 20%; */
+    
 }
+
+.features section{
+    float: left;
+    width: 20%;
+    padding-left: 100px;
+}
+
