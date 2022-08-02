@@ -99,10 +99,11 @@ section form{
     margin-left: 100px;
     display:flex;  
     background: #F5F9FC; 
+    
 }
 
 section form input{
-    background: #F5F9FC;
+    background: #E4E7EB;
     height: 30px;
     width:250px;
     border: transparent;
@@ -136,17 +137,52 @@ main img{
     
 }
 
+.features *{
+    background: #F5F9FC;
+}
+
 .features section{
     float: left;
     width: 23%;
-    
-    
+    padding-top: 50px;
 }
 
 .left{
     margin-left: 100px;
 }
 
+.features h2{
+    font-size: 16px;
+    padding-top: 15px;
+}
+
 .features section p{
     width: 223px;
+    padding: 20px 0px;
 }
+
+.features{
+    clear: both;
+}
+
+
+.bottom-section{
+    clear: both;
+    
+}
+
+.bottom-section *{
+    background: white;
+}
+
+.bottom-section h3{
+    font-size: 50px;
+    padding: 75px 600px 40px 100px;
+}
+
+.bottom-section p{
+    font-size: 18px;
+    padding: 0px 650px 40px 100px;;
+}
+
+
