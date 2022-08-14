@@ -139,6 +139,7 @@ main img{
 
 .features *{
     background: #F5F9FC;
+    
 }
 
 .features section{
@@ -183,6 +184,43 @@ main img{
 .bottom-section p{
     font-size: 18px;
     padding: 0px 650px 40px 100px;;
+}
+
+.popup{
+    clear: both;
+    height: 1500px;
+}
+.popup *{
+    border: solid black 2px;
+    clear: both;
+    width: 350px;
+    
+}
+
+.popup > section{
+    color: red;
+    height: 500px;
+}
+
+.popup h4,.popup h1, .popup form{
+    margin: 0;
+    padding: 10px 30px;
+}
+.popup h1{
+    font-size: 30px;
+}
+
+.popup form, button{
+    height: 100px;
+    margin-right: 0px;
+}
+
+.popup form button{
+    margin-right: 0px;
+}
+
+.popup form input{
+    width: 300px;
 }
 
 
