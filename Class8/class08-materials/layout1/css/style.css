@@ -1,6 +1,8 @@
 /* Box Model Hack */
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 /* Clear fix hack */
@@ -33,6 +35,29 @@ nav,main,aside{
   float: left;
   width: 10%;
 
+}
+
+nav {
+  height: 500px;
+}
+
+nav img{
+  padding: 30px 30px 20px 30px;
+  height: 120px;
+  width: 200px;
+}
+
+nav img + a{
+  padding-left: 30px; 
+}
+
+nav ul *{
+  color: black;
+  list-style: none;
+  text-decoration: none;
+  font-size: 18px;
+  padding-top: 10px;
+  padding-left: 15px;
 }
 
 main{
