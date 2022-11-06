@@ -88,11 +88,17 @@ nav form input{
   height: 40px;
 }
 
-main + section > section{
+/* main + section > section{
   width: 33.333%;
   float: left;
   
+} */
+
+.final-section > section{ 
+  width: 33.333%;
+  float: left;
 }
+
 
 main > section{
   width: 50%;
@@ -108,14 +114,29 @@ main section + section section{
   border: 1px solid black;
 }
 
-
+main > h2{
+  color: black;
+  width: 49%;
+  display:inline-flex;
+  font-size: 24px;
+  font-weight: 900;
+  font-family: sans-serif;
+  padding-left: 10px;
+  padding-top: 30px;
+}
+main > h2 + h2{
+  color: rgb(82, 76, 76);
+  justify-content: right;
+  font-size: 24px;
+  font-family:sans-serif;
+  padding-right: 40px;
+  font-family: sans-serif;
+}
 
 .isreal {
   display: inline-block;
   background-image: url("/Class8/class08-materials/layout3/img/Israel_UAE.jpg");
-  
   background-repeat:no-repeat;
-  /* background-size: cover; */
   background-size: 100% 100%;
   height: 98%;
   width: 97%;
@@ -159,6 +180,99 @@ main section + section section{
   background-image: url("/Class8/class08-materials/layout3/img/singer.jpg");
   background-repeat:no-repeat;
 }
+
+.final-section{
+  float: left;
+}
+
+section > h2{
+  color:  red;
+  font-size: 24px;
+  font-family:sans-serif;
+  font-weight: 900;
+  padding-left: 10px;
+  padding-top: 40px;
+}
+
+.biden img, .protests img,.trump img{
+  width: 610px;
+  height: 300px;
+  padding: 0 10px;
+}
+
+.final-section h3{
+  padding-left: 12px;
+  font-size: 25px;
+  font-family:sans-serif;
+  font-weight: 900;
+}
+
+.final-section p{
+  padding-left: 12px;
+  padding-right: 20px;
+  font-size: 24px;
+  font-weight: 500;
+  font-family:sans-serif;
+}
+
+.final-section span{
+  padding-left: 25px;
+  padding-bottom: 20px;
+  font-weight: 500;
+  font-size: 18px;
+  font-family:sans-serif;
+}
+
+.isreal h1{
+  color:  rgb(255, 255, 255);
+  margin-top: 300px;
+  margin-left: 20px;
+  font-size: 45px;
+  font-family:sans-serif;
+}
+
+.isreal p{
+  color:  rgb(66, 66, 66);
+  /* margin-top: 50px; */
+  margin-left: 20px;
+  margin-right: 70px;
+  font-size: 24px;
+  font-family:sans-serif;
+}
+
+.isreal span{
+  color:  rgb(71, 71, 71);
+  margin-left: 35px;
+  margin-right: 70px;
+  font-size: 20px;
+  font-weight: 500;
+  font-family:sans-serif;
+}
+
+.grid-four-by-two h3{
+  font-size: 24px;
+  font-family:sans-serif;
+  color:  rgb(255, 255, 255);
+  margin-top: 140px;
+  margin-left: 20px;
+  margin-right: 50px;
+  height: 50px;
+  /* Adding in a text outline, I don't think this works on all browsers */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgb(48, 48, 48);
+}
+
+.grid-four-by-two span{
+  font-size: 18px;
+  font-weight: bold;
+  font-family:sans-serif;
+  margin-left: 30px;
+  
+  color:  rgb(255, 255, 255);
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgb(0, 0, 0);
+}
+
 
 
 
