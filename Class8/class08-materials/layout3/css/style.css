@@ -42,11 +42,50 @@ nav *{
   display: block;
 }
 nav ul{
-  width: 50%;
+  width: 63%;
+  margin: 0px;
+}
+
+nav img{
+  height: 55px;
+  border-right: solid white 1px;
+}
+
+.signin {
+  text-align: center;
+  margin-top: 20px;
+  text-decoration: none;
+  font-size: 18px;
+  font-family:sans-serif;
+}
+
+nav ul li *{
+  text-align: center;
+  padding-top: 20px;
+  border:1px solid white;
+  width: 100%;
+  height: 55px;
+  text-decoration: none;
+  font-size: 18px;
+  font-family:sans-serif;
+}
+
+nav ul .more{
+  width: 195px;
+}
+
+form > input{
+  background-image: url("/Class8/class08-materials/layout3/img/search.svg");
+  background-repeat: no-repeat;
+  background-position-x: 95%;
+  background-position-y: 50%;
 }
 
 nav form input{
-  width: 100%;
+  margin-top: 7px;
+  margin-bottom: 7px;
+  width: 125%;
+  height: 40px;
 }
 
 main + section > section{
@@ -60,6 +99,8 @@ main > section{
   height: 500px;
   float: left;
 }
+
+
 main section + section section{
   width: 50%;
   height: 250px;
@@ -70,13 +111,16 @@ main section + section section{
 
 
 .isreal {
+  display: inline-block;
   background-image: url("/Class8/class08-materials/layout3/img/Israel_UAE.jpg");
-  background-size: cover;
+  
   background-repeat:no-repeat;
-  background-size: contain;
-
-  height: 500px;
-  width: 90%;
+  /* background-size: cover; */
+  background-size: 100% 100%;
+  height: 98%;
+  width: 97%;
+  margin-left: 10px;
+  
 }
 
 .america{
