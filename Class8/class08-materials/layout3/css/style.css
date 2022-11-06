@@ -67,39 +67,53 @@ main section + section section{
   border: 1px solid black;
 }
 
+
+
 .isreal {
   background-image: url("/Class8/class08-materials/layout3/img/Israel_UAE.jpg");
+  background-size: cover;
+  background-repeat:no-repeat;
+  background-size: contain;
+
   height: 500px;
   width: 90%;
-  background-size: 100%;
 }
 
 .america{
-  background-image: url("/Class8/class08-materials/layout3/img/Tension_at_Canada_US_border.jpg");
-  height: 250px;
+  height: 240px;
+  margin: 0px 10px 0px 0px;
   width: 45%;
+  background-size: cover;
+  background-image: url("/Class8/class08-materials/layout3/img/Tension_at_Canada_US_border.jpg") ;
   
 }
 
 .vaccine{
-  background-image: url("/Class8/class08-materials/layout3/img/vaccinate_seven_billion_people.jpg");
-  height: 250px;
+  height: 240px;
+  margin: 0px 0px 10px 10px;
   width: 45%;
-  background-size: 100%;
+  background-size: cover;
+  background-image: url("/Class8/class08-materials/layout3/img/vaccinate_seven_billion_people.jpg") ;
+  background-repeat:no-repeat;
+
 }
 
 .productivity{
-  background-image: url("/Class8/class08-materials/layout3/img/online_productivity_gyms.jpg");
-  height: 250px;
+  height: 240px;
+  margin: 0px 10px 0px 0px;
   width: 45%;
+  background-size: cover;
+  background-image: url("/Class8/class08-materials/layout3/img/online_productivity_gyms.jpg");
   
 }
 
 .folksinger{
-  background-image: url("/Class8/class08-materials/layout3/img/singer.jpg");
-  height: 250px;
+  height: 240px;
+  margin: 0px 0px 10px 10px;
   width: 45%;
-  background-size: 100%;
+  background-size: cover;
+  background-image: url("/Class8/class08-materials/layout3/img/singer.jpg");
+  background-repeat:no-repeat;
 }
 
 
