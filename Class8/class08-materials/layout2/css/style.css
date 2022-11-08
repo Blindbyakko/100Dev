@@ -20,7 +20,6 @@
 /******************************************
 /* BASE STYLES
 /*******************************************/
-
 body {
 
 }
@@ -29,11 +28,16 @@ body {
 /******************************************
 /* LAYOUT
 /*******************************************/
+nav{
+  border-bottom: solid black 1px;
+  height: 50px;
+}
 header nav > *{
   float: left;
   width: 10%;
   margin: 0 5%;
   list-style: none;
+  padding-top: 15px;
 }
 
 header nav li{
