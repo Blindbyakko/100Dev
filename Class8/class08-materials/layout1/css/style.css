@@ -44,7 +44,7 @@ nav {
 nav img{
   padding: 30px 30px 20px 30px;
   height: 120px;
-  width: 200px;
+  width: 250px;
 }
 
 nav img + a{
@@ -59,6 +59,12 @@ nav ul *{
   padding-top: 20px;
   padding-left: 15px;
 }
+
+nav img + a{
+  color:  black;
+  text-decoration: none;
+}
+
 
 /* Styling for main section */
 *{
