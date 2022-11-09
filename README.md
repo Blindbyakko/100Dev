@@ -1,7 +1,7 @@
 # 100Dev
 
 
-Joined up with #100 Devs in late May of 2022. The goal was to strengthen my knowledge in web development that I learned while I college, as well as gain a deeper understanding and continue this path forward.
+Joined up with #100 Devs in late May of 2022. The goal was to strengthen my knowledge in web development that I learned while In college, as well as gain a deeper understanding and continue this path forward.
 
 https://leonnoel.com/100devs/
 
