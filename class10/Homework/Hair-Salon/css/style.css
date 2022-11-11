@@ -1,20 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap');
+
 /* Box Model Hack */
 * {
   box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+
+  
+  font-family: 'Merriweather', serif;
 }
+
 
 /* Clear fix hack */
 .clearfix:after {
-  content: ".";
-  display: block;
-  clear: both;
-  visibility: hidden;
-  line-height: 0;
-  height: 0;
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
 }
 
 .clear {
-clear: both;
+	clear: both;
 }
 
 
@@ -22,193 +30,47 @@ clear: both;
 /* BASE STYLES
 /*******************************************/
 
+nav *{
+  float: left;
+}
+
+.logo{
+  width: 25%;
+  padding-left: 100px;
+  padding-top: 25px;
+}
+.logo > img{
+  width: 125px;
+  
+}
+
+ul{
+  width: 50%
+}
+ul > li {
+  padding: 15px 20px;
+  font-weight: 600;
+  font-size: 16px;
+}
+ul img:nth-child(7){
+  width: 60px;
+  
+  padding: 10px 0px 0px 35px;
+}
+body ul img:last-child{
+  width: 20px;
+  padding: 15px 0px 0px 10px;
+}
+
+
 
 /******************************************
 /* LAYOUT
 /*******************************************/
-html{
-  font-size: 62.5%;
-}
 
-a{
-  text-decoration: none;
-  font-size: 1.6rem;
-}
-/*****************************
-/ HEADER
-/*****************************/
-header{
-  height: 4rem;
-  font-size: 1.6rem;
-  background: white;
-}
 
-nav, ul, img{
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
 
-ul{
-  flex-basis: 50%;
-  list-style-type: none;
-}
 
-h1{
-  font-size: 7rem;
-}
-
-span{
-  font-size: 1.6rem;
-}
-/**************************
-/ FIRST SECTION (Revisit Later)
-/**************************/
-.sec-1{
-  display: flex;
-  width: 50%;
-  flex-direction: column;
-  border: 2px solid red;
-}
-
-.sec-1 a{
-  color: white;
-  background: black;
-  padding: 10px;
-}
-
-.special{
-  background: black;
-  color: white;
-  width: 50%;
-  height: 50%;
-}
-
-.special a{
-  color: black;
-  background: white;
-}
-
-/********************************
-/ SECOND SECTION
-/********************************/
-.sec-2, .sec-2 section{
-  display: flex;
-  justify-content: space-around;
-}
-
-.sec-2{
-  padding: 10%;
-}
-.sec-2 h4{
-  font-size: 2rem;
-}
-
-.sec-2 p{
-  font-size: 1.4rem;
-}
-
-.sec-2 section{
-  flex-direction: column;
-  width: 15%;
-  text-align: center;
-}
-
-/*********************************
-/ THIRD SECTION
-/********************************/
-.sec-3{
-  display: flex;
-  justify-content: center;
-  gap: 3%;
-  padding: 10% 0;
-  background: rgb(241, 238, 238);
-}
-
-.sec-3 section{
-  width: 30%;
-}
-
-.sec-3 h2{
-  font-size: 3rem;
-}
-
-.sec-3 p{
-  font-size: 1.3rem;
-  padding-bottom: 20px;
-}
-
-.sec-3 a{
-  padding: 15px;
-  background: black;
-  color: white;
-}
-
-/*******************************
-/ SECTION 4
-/*******************************/
-.sec-4{
-  display: flex;
-  justify-content: space-around;
-  padding: 10%;
-}
-
-.sec-4 section{
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-}
-
-.sec-4 .namecard{
-  padding: 10%;
-  background: black;
-  color: white;
-}
-
-/***********************************
-/ SECTION 5
-/***********************************/
-.sec-5{
-  background:rgb(241, 238, 238);
-}
-
-.sec-5 section{
-  display: flex;
-  flex-direction: column;
-  width: 55%;
-  padding: 5% 0 5% 15%;
-
-}
-
-.sec-5 span{
-  font-size: 1.6rem;
-}
-
-.sec-5 h4{
-  font-size: 4rem;
-}
-
-.sec-5 a{
-  background: black;
-  color: white;
-  padding: 15px;
-  width: 33%;
-}
-
-/***********************************
-/ SECTION 6
-/**********************************/
-.sec-6{
-  text-align: center;
-}
-.sec-6 h3{
-  font-size: 3rem;
-}
-
-.gallery{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 20px;
-  width: 55%;
-}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
