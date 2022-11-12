@@ -103,12 +103,13 @@ main section h1 + p{
 }
 main div{
   padding: 50px 0 0 350px;
+  height: 90px;
 }
 
-main div > a{
+main section + div > a{
   background: black;
   color: white;
-  padding: 20px 20px 20px 30px;
+  padding: 15px 20px 15px 30px;
   border: solid 1px black;
 }
 
@@ -123,6 +124,41 @@ main div > a{
   left: calc(100vw - (100vw - 90%));;
 }
 
+.booking{
+  color: white;
+  padding: 10px 0 0 0px;
+  background: black;
+  width: 300px;
+  height: 350px;
+  margin-left: 350px;
+  margin-top: 75px; 
+  box-shadow: 2px 2px 2px 2px black
+}
+
+.booking  p:first-child{
+  height: 80px;
+  border-left: 5px solid white;
+  padding: 35px 0 0 30px;
+}
+
+.booking span{
+  font-size: 38px;
+}
+
+.booking p + p{
+  line-height: 40px;
+  word-spacing: 3px;
+  color: red;
+  padding: 0px 0px 50px 30px;
+  font-size: 16px;
+}
+
+.booking a{
+  background-color: white;
+  margin-left: 30px;
+  margin-top: 50px;
+  padding: 15px 20px 15px 30px;
+}
 
 
 
