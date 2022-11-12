@@ -148,7 +148,7 @@ main section + div > a{
 .booking p + p{
   line-height: 40px;
   word-spacing: 3px;
-  color: red;
+  color: white;
   padding: 0px 0px 50px 30px;
   font-size: 16px;
 }
@@ -160,7 +160,51 @@ main section + div > a{
   padding: 15px 20px 15px 30px;
 }
 
+.services{
+  padding-top: 100px;
+  margin-left: 350px;
+  /* height: 400px; */
+  width: calc(100vw - (100vw - 65%));;
+  border: 1px black solid;
+  /* text-align: center; */
+}
 
+.section-container-one > section{
+  text-align: center;
+  display: inline-block;
+  width: 30%;
+  border: 1px black solid;
+}
+
+/* .services section.section-container{
+  display: inline-block;
+} */
+.section-container-two{
+  display:inline-block;
+}
+
+.section-two{
+  background-color: red;
+  width: 45%;
+  display:inline-block;
+}
+
+.section-two span{
+  display: block;
+}
+
+.section-two h3{
+  font-size: 45px;
+}
+
+.section-two p{
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0.2px;
+  text-align: left;
+  padding-right: 15px;
+}
 
 
 
