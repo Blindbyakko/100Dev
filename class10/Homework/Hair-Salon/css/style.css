@@ -36,7 +36,7 @@ nav *{
 
 .logo{
   width: 25%;
-  padding-left: 100px;
+  padding-left: 150px;
   padding-top: 25px;
 }
 .logo > img{
@@ -45,22 +45,86 @@ nav *{
 }
 
 ul{
-  width: 50%
+  width: 55%
 }
 ul > li {
   padding: 15px 20px;
   font-weight: 600;
   font-size: 16px;
 }
-ul img:nth-child(7){
-  width: 60px;
+ul li:nth-child(7){
+  /* width: 100px; */
   
   padding: 10px 0px 0px 35px;
 }
-body ul img:last-child{
-  width: 20px;
-  padding: 15px 0px 0px 10px;
+
+
+.search{
+  padding-top: 5px;
+  width: 25px;
+  height: 25px;
 }
+.bell{
+  width: 20px;
+  height: 20px;
+}
+
+ul + a{
+  color: black;
+  padding-top: 28px;
+}
+
+main{
+  clear: both;
+  height: 1100px;
+  background-image: url(/class10/Homework/Hair-Salon/img/hero-image.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+main section h1{
+  font-weight: 100;
+  padding: 290px 0 0 350px;
+  font-size: 94px;
+  color: white; 
+  margin-bottom: 20px;
+}
+
+main section h1 > span{
+  display: block;
+}
+
+main section h1 + p{
+  padding: 0 0 0 350px;
+  font-weight: 300;
+  word-spacing: 10px;
+  font-size: 18px;
+  color: white; 
+}
+main div{
+  padding: 50px 0 0 350px;
+}
+
+main div > a{
+  background: black;
+  color: white;
+  padding: 20px 20px 20px 30px;
+  border: solid 1px black;
+}
+
+.hours{
+  width: 300px;
+  font-size: 18px;
+  font-weight: 600;
+  transform: rotate(90deg);
+  color: white;
+  position: absolute;
+  top: 500px;
+  left: calc(100vw - (100vw - 90%));;
+}
+
+
+
 
 
 
