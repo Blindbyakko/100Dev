@@ -166,7 +166,7 @@ main section + div > a{
   /* height: 400px; */
   width: calc(100vw - (100vw - 65%));;
   border: 1px black solid;
-  /* text-align: center; */
+  text-align: center;
 }
 
 .section-container-one > section{
@@ -174,27 +174,44 @@ main section + div > a{
   display: inline-block;
   width: 30%;
   border: 1px black solid;
+  margin-bottom: 100px;
 }
 
 /* .services section.section-container{
   display: inline-block;
 } */
 .section-container-two{
-  display:inline-block;
+  width: 100vw;
+  position: relative;
+  left: calc(-50vw + 49.3%);
+  /* display:inline-block; */
+  background-color: rgb(226, 222, 222);
+  height: 650px;
+  border: solid black 1px
+}
+
+.section-container-two > section{
+  border: solid black 1px;
+  display: inline-block;
 }
 
 .section-two{
   background-color: red;
-  width: 45%;
-  display:inline-block;
+  width: 550px;
+  margin-top: 100px;
+  margin-left: 20px;
+  
 }
 
 .section-two span{
   display: block;
+  
 }
 
 .section-two h3{
   font-size: 45px;
+  text-align: left;
+  font-weight: 200;
 }
 
 .section-two p{
@@ -204,6 +221,20 @@ main section + div > a{
   letter-spacing: 0.2px;
   text-align: left;
   padding-right: 15px;
+}
+
+.image-section{
+  width: 550px;
+  height: 373px;
+  margin-left: 100px;
+  margin-top: 100px;
+  background-image: url(/class10/Homework/Hair-Salon/img/Home3-Video.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.image-section img{
+  
 }
 
 
