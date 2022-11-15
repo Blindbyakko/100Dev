@@ -330,9 +330,7 @@ main section + div > a{
   margin-left: 10px;
 }
 
-/* Create two equal columns that sits next to each other */
 .column img{
-  
   padding: 5px;
   float: left;
 }
@@ -347,7 +345,14 @@ main section + div > a{
   top: -379px;
 }
 
+.row p{
+  font-size: 45px;
+  margin-bottom: -40px;
+}
 
+.row p + p{
+  margin-bottom: 40px;
+}
 
 
 
