@@ -323,6 +323,34 @@ main section + div > a{
 }
 
 
+.row {
+  display: inline-block;
+  padding: 5px;
+  height: 1200px;
+  margin-left: 10px;
+}
+
+/* Create two equal columns that sits next to each other */
+.column img{
+  
+  padding: 5px;
+  float: left;
+}
+
+.bot-left{
+  position: relative;
+  top: -779px;
+}
+
+.bot-mid{
+  position: relative;
+  top: -379px;
+}
+
+
+
+
+
 
 /******************************************
 /* LAYOUT
