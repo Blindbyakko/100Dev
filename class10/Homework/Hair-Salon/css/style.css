@@ -288,6 +288,42 @@ main section + div > a{
   font-size: 13;
 }
 
+.section-three + section{
+  height: 454px;
+  background-image: url(/class10/Homework/Hair-Salon/img/Promo-Banner-Image.jpg);
+  background-repeat: no-repeat;
+  margin: 50px 0;
+  
+}
+
+.colour-Offer{
+  text-align: left;
+  padding-left: 100px;
+  
+}
+
+.colour-Offer h3{
+  font-weight: 200;
+  padding: 75px 0 20px 0;
+  font-size: 22px;
+}
+
+.colour-Offer h2{
+  font-weight: 300;
+  font-size: 40px;
+  padding-right: 60%;
+  line-height: 60px;
+}
+
+.colour-Offer a{
+  background: black;
+  color: white;
+  padding: 15px 20px 15px 30px;
+  border: solid 1px black;
+}
+
+
+
 /******************************************
 /* LAYOUT
 /*******************************************/
