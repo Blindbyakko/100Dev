@@ -70,7 +70,51 @@ header {
   /* background-size: contain; */
   background-repeat: no-repeat;
   width: 100%;
+}
+
+header h1{
+  padding: 100px 0 0 100px;
+  font-size: 100px;
+}
+
+header form{
+  padding: 0 0 0 100px;
   
+}
+
+header form input{
+  background-image:url(/class10/Homework/Restaurant/img/search.svg);
+  background-repeat: no-repeat;
+  background-size: 16px;
+  background-position:10px;
+  font-size: 18px;
+  padding: 0 0 0 40px;
+  height: 56px;
+  width: 550px;
+}
+form > a{
+  /* border: 1px solid black; */
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  margin-left: -5px;
+  padding: 20px 40px 17px 40px;
+  background-color: rgb(231, 128, 38);
+  color: white;
+}
+
+header .socials li{
+  display: inline-block;
+  padding-left: 100px;
+}
+
+.socials li p{
+  font-size: 24px;
+  font-family:'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight:300;
+}
+
+header h1 span{
+  display: block;
 }
 
 
