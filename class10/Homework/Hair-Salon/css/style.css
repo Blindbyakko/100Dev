@@ -30,14 +30,8 @@
 /* BASE STYLES
 /*******************************************/
 
-nav{
-  /* float: left; */
-}
-
-.nav-items{
-  /* background-color: red; */
-  /* height: 100px; */
-  /* float: left; */
+nav *{
+  float: left;
 }
 
 .logo{
@@ -78,7 +72,10 @@ ul li:nth-child(7){
 ul + a{
   color: black;
   padding-top: 28px;
+  background-color: yellow;
 }
+
+
 
 main{
   clear: both;

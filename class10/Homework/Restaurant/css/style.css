@@ -45,12 +45,17 @@ nav *{
   
   margin: 0;
 }
+
+.logo{
+  height: 64px;
+  margin-right: 550px;
+}
 nav > ul{
   width: 95%;
   /* border: 1px solid black; */
 }
 ul > li {
-  padding: 25px 35px;
+  padding: 0px 25px;
   font-weight: 600;
   font-size: 18px;
 }
@@ -115,6 +120,14 @@ header .socials li{
 
 header h1 span{
   display: block;
+}
+
+.pie{
+  background-image: url(/class10/Homework/Restaurant/img/pie.jpg);
+  height: 1000px;
+  background-repeat: no-repeat;
+  width: 50%;
+  
 }
 
 
