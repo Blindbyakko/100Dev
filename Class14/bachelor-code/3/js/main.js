@@ -1,10 +1,10 @@
-const contestants = document.querySelectorAll(/*INSERTCODE*/)
+const contestants = document.querySelectorAll(".contestant"/*INSERTCODE*/)
 
-Array.from(contestants).forEach(element => element.addEventListener('click', /*INSERTCODE*/))
+Array.from(contestants).forEach(element => element.addEventListener('click', checkForRose/*INSERTCODE*/))
 
 function checkForRose(click){
-	if(click.target.classList.contains(/*INSERTCODE*/)){
-		document.querySelector('#nikki').classList.toggle(/*INSERTCODE*/)
+	if(click.target.classList.contains("rose"/*INSERTCODE*/)){
+		document.querySelector('#nikki').classList.toggle("hidden"/*INSERTCODE*/)
 	}else{
 		alert("Wrong!");
 	}
