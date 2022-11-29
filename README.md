@@ -12,3 +12,9 @@ https://100devsfollowalong.netlify.app/index.html
 and complete and upload all my assignments which would be found by going into Classxx -> Classxx -> homework file.
 ex: Class02 -> class02-homework - > index.html 
 
+NOTES
+-----
+
+Class 17, 18 - no classes
+Super review covers HTML/CSS - 9 hours of review!
+
