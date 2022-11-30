@@ -29,10 +29,10 @@ console.log("result of multiply: " + result)  // should be 8
 
 function mathStuff(num1, num2, num3){
     sum = num1 + num2;
-    return sum / num3
+    return sum % num3
 }
 
-let mathStuffResult = mathStuff(2,2,4) // should be 1
+let mathStuffResult = mathStuff(2,2,4) // should be 0
 console.log("result of mathStuff: " +
  mathStuffResult);
 //---Hard
