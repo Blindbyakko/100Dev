@@ -2,9 +2,11 @@
 
 
 function stopSnacking(){
-    let snacks = document.querySelector('input').value
+    let snacks = Number(document.querySelector('input').value)
+    document.querySelector("#stops").innerText = "";
     while(snacks > 0){
         console.log("stop!")
+        document.querySelector("#stops").innerText += " STOP!";
         snacks--
     }
 }
