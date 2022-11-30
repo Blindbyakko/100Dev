@@ -23,10 +23,10 @@ subFourNumbers(4,1,1,1)  //1
 // Create a function that divides one number by another and returns the remainder
 
 function divide(num1,num2){
-    return num1%3
+    return num1%num2
 }
 
-result = divide(5)
+result = divide(5,3)
 console.log("divide result:" + result)
 
 // *Conditionals*
