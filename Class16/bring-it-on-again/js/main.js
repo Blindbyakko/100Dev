@@ -71,4 +71,4 @@ function count(num){
     }
 }
 
-count(9)
+count(9)  // 1 4 9
