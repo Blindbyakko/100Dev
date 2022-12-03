@@ -1,8 +1,13 @@
 function stopSnacking(){
-    document.querySelector(".para").innerText += " STOP!";
+    document.getElementsByClassName("conversion")[0].innerHTML += "hi"
 }
 
 document.querySelector("#help").addEventListener('click', stopSnacking)
+
+function stopSnacking(){
+    console.log("test")
+    document.getElementsByClassName("conversion")[0].innerHTML += "hi"
+}
 /*
 function stopSnacking(){
     let snacks = Number(document.querySelector('input').value)
