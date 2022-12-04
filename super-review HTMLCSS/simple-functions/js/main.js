@@ -9,7 +9,7 @@ subTwoValue(5,2)  // 3
 function divThreeValue(num1, num2, num3){
     console.log(num1/num2/num3)
 }
-divThreeValue(10,2,5)  //0 
+divThreeValue(10,2,5)  // 1 
 
 //create a function that multiplys three numbers and returns the product
 
@@ -44,6 +44,6 @@ function moreMathFunct(num1, num2, num3, num4){
     else alert((num1*num2*num3)%num4)
 }
 
-moreMathFunct(50,3,5,5)
-moreMathFunct(50,1,5,10)
-moreMathFunct(50,2,1,9)
+moreMathFunct(50,3,5,5) // 10
+moreMathFunct(50,1,5,10) // -5
+moreMathFunct(50,2,1,9)  // 1

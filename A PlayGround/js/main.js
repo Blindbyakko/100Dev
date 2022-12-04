@@ -21,3 +21,7 @@ function stopSnacking(){
 
 document.querySelector("#help").addEventListener('click', stopSnacking)
 */
+
+for(let i = 0; i < 10; i++){
+    console.log(i)
+}
