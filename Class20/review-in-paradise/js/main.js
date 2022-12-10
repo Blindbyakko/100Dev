@@ -9,6 +9,7 @@ console.log(favFood)
 let str = "Hello World!"
 alert(str[1])
 
+
 // *Functions*
 // Create a function that takes in 3 numbers. Divide the first two numbers and multiply the last. Alert the product. Call the function.
 
@@ -20,9 +21,11 @@ divideByTwoMultByLast(10,2,5)  // 25
 
 // Create a function that takes in 1 number. Console log the cube root of the number. Call the function.
 
+//toFixed - reduces the number of decimals.
 function cubeRootOfNumber(n){
-    console.log(n**3)
+    console.log(Math.cbrt(n).toFixed(4))
 }
+
 
 cubeRootOfNumber(3)  // 27
 
