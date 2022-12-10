@@ -15,6 +15,7 @@ console.log(numbers)
 //Find the average of all the numbers from question three
 
 let sum = numbers.reduce((value,sum) => value + sum)
+
 let average = sum/numbers.length
 console.log(sum)
 console.log(average)
