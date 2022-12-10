@@ -3,13 +3,14 @@
 
 const findProduct = (arr) => {
     // Another method using for loop
+    // let sumOfProduct = 1;
     // for(let i = 0; i < arr.length; i++){
     //     sumOfProduct = sumOfProduct * arr[i]
     // }
 
     // Another method using forEach loop
     // arr.forEach( num => sumOfProduct *= num)
-    
+
     let sumOfProduct = arr.reduce((sumOfProduct, ArrValue) => sumOfProduct * ArrValue, 1)
     alert(sumOfProduct)
 }
