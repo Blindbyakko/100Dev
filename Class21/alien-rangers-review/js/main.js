@@ -25,4 +25,4 @@ function secondHighestAndLowest(arr){
     alert(sorted[1] + sorted[sorted.length-2])
 }
 arr = [10,9,8,7,6,5,4,3,2,1]
-secondHighestAndLowest(arr)
+secondHighestAndLowest(arr)  // 2 + 9 = 11
