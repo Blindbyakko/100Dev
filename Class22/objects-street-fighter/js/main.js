@@ -17,7 +17,7 @@ function StreetFighter(name, country, special_ability, hitPoints){
     }
 }
 
-let ken = new StreetFighter("ken","USA","Fireball",100)
+let ken = new StreetFighter("Ken","USA","Fireball",100)
 
 ken.details()
 ken.special()
