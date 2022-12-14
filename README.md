@@ -19,3 +19,5 @@ Class 17, 18 - no classes
 Super review covers HTML/CSS - 9 hours of review!
 
 Class 24 - No files. 
+
+Class 25 - No files.
