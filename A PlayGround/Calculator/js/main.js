@@ -1,13 +1,24 @@
 function Calculator(){
     this.finalResult = 0;
-    this.expression = ""
+    this.expression = display.innerText
     this.evaluate = function(){
+        console.log(display.innerText)
+        this.expression = display.innerText
+        console.log(this.expression)
+        readExpression(this.expression)
         console.log("time to add")
     }
     this.display = function(calcInput){
-      console.log("hello display")
+      console.log("hello display " )
       this.expression = calcInput
       display.innerText += this.expression
+    }
+    function readExpression(){
+      console.log("----------")
+      console.log(expression)
+      console.log("----------")
+      // this.expression = this.expression.split("")
+      // console.log(this.expression)
     }
 }
 
