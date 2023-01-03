@@ -1,18 +1,25 @@
 function Calculator(){
-    this.finalResult = 0;
+    this.finalResult;
     this.expression = display.innerText
-    this.stack = []
+    this.prevTotal = null;
     this.evaluate = function(){
         console.log(display.innerText)
-        this.expression = display.innerText
-        console.log(this.expression)
+        //this.expression// = display.innerText
+        console.log("expression is: "  + this.expression)
         readExpression()
         console.log("time to add")
     }
     this.display = function(calcInput){
-      console.log("hello display " )
-      this.expression = calcInput
-      display.innerText += this.expression
+        this.expression += calcInput
+      // console.log("hello display "  + display.innerText)
+      if(display.innerText === "0"){
+        console.log("hello display "  + display.innerText)
+        display.innerText = this.expression
+      }
+      else {
+        // this.expression += calcInput
+        display.innerText += this.expression
+     }
     }
 
     // Will read in the express and parse out the sign
@@ -56,40 +63,37 @@ function Calculator(){
 
 let display = document.querySelector(".display")
 
-
-// addEventListener('click', (event) => {
-//     let numerator = document.querySelectorAll("numberBtn")
-//    console.log(numerator)
-// });
-
 const numberButtons = document.querySelectorAll(".numberBtn");
 const operator = document.querySelectorAll(".operatorBtn");
 const evaluate = document.querySelector(".equationBtn");
-
 const myCalc = new Calculator()
 
+// Read Number buttons and display
+// Uses Calculator object, and display method
 numberButtons.forEach((btns) => {
   btns.addEventListener("click", (event) => {
-    // display.innerText = btns.innerText
     console.log(btns.innerText)
     myCalc.display(btns.innerText)
   });
-  // myCalc.display(btns.innerText)
 });
+
+// Read operator buttons and display
+// Uses Calculator object, and display method
 operator.forEach((btns) => {
-  console.log("hello")
   btns.addEventListener("click", (event) => {
     // display.innerText = btns.innerText
     myCalc.display(btns.innerText)
     console.log( btns.innerText)
   });
 });
-// evaluate.forEach((btns) => {
-  evaluate.addEventListener("click", (event) => {
-    myCalc.evaluate(evaluate.innerText)
-    console.log( evaluate.innerText)
-  });
-// });
+
+
+// Reads equal(" = ") button
+// Uses Calculator object, and evaluate method
+evaluate.addEventListener("click", (event) => {
+  myCalc.evaluate(evaluate.innerText)
+  console.log( evaluate.innerText)
+});
 
 
 // NumberButtons()
